@@ -1,0 +1,26 @@
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+
+    div{
+        border: 1px solid #f4f4f4;
+        cursor: pointer;
+        height: 60px;
+        line-height: 50px;
+    }
+
+    #equal{
+        background-color: #f4f4;
+    }
+
+    .button{
+
+        &:hover{
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.5s ease-in-out;
+        }
+    }
+}
