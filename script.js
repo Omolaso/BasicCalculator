@@ -8,7 +8,7 @@ buttons.map(button =>{
         // console.log(e.target.innerText)
         switch(e.target.innerText){
             case 'C':
-                display.innerText = ''
+                display.innerText = '0'
                 break;
             case 'DEL':
                 display.innerText = display.innerText.slice(0, -1)
